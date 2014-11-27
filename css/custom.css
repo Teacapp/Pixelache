@@ -1,0 +1,72 @@
+.imgscale {
+	height: auto;
+	width: 49%;
+}
+
+.boxpadright {
+	padding-right: 0.05em;
+}
+
+.boxpadleft {
+	padding-left: 0.05em;
+}
+
+.imghover:hover {
+	opacity: 0.7;
+}
+
+/*@media screen and (max-device-width: 420px){
+  .imgscale {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+}*/
+
+
+.hideme {
+display: none !important;
+}
+
+/* Swipe works with mouse as well but often causes text selection. */
+#pixelache-app-frontpage * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+/* Arrow only buttons in the header. */
+#pixelache-app-frontpage .ui-header .ui-btn {
+    background: none;
+    border: none;
+    top: 9px;
+}
+#pixelache-app-frontpage .ui-header .ui-btn-inner {
+    border: none;
+}
+/* Content styling. */
+dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
+dt { font-size: 2em; font-weight: bold; }
+dt span { font-size: .5em; color: #777; margin-left: .5em; }
+dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+.back-btn { float: right; margin: 0 2em 1em 0; }
+
+.left {
+	float: left;
+    width: 78%;
+    margin-right: 2%;
+}
+.right {
+    float: right;
+    width: 20%;
+}
+.ui-input-search {
+    margin: 0;
+}
+button.ui-btn {
+    margin: 0;
+}
+
+#map-canvas, #map-page {
+width: 100%; height: 100%; padding: 0;
+}
