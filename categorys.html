@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pixelache webapp</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+		<script src="js/jquery.js"></script>
+		<script src="_assets/js/index.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/sidebar.js"></script>
+		
+	</head>
+	<body>
+<div data-url="pixelache-app" data-role="page" class="jqm-demos" id="pixelache-app" data-title="Pixelache WebApp by Teacapp">
+    <div data-role="header" data-position="fixed">
+        <h1>CATEGORYS</h1>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+		<div class="ui-grid-a ui-responsive">
+			<div class="ui-block-a boxpadright">
+				<a href="venues.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+				<a href="map.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+			</div>
+			<div class="ui-block-b boxpadleft">
+				<a href="planner.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+				<a href="social.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+			</div>
+			<div class="ui-block-a boxpadright">
+				<a href="updates.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+				<a href="help.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+				
+			</div>
+			<div class="ui-block-b boxpadleft">
+				<a href="wifi.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+				<a href="know.html"><img class="imgscale imghover" src="img/testbox.png"></a>
+			</div>
+		</div>
+
+    </div><!-- /content -->
+    <div data-role="footer">
+        <h4>Footer stuff</h4>
+    </div><!-- /footer -->
+    <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="a" id="left-panel">
+        <ul data-role="listview">
+            <li data-icon="delete" class="hideme"><a href="#" data-rel="close">&nbsp;</a></li>
+                <li><a href="index.html">Home</a></li>
+				<li><a href="venues.html">Venues</a></li>
+				<li><a href="categorys.html">Categorys</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="#panel-fixed-page2">Thing 5</a></li>
+                <li><a href="#panel-fixed-page2">Thing 6</a></li>
+                <li><a href="#panel-fixed-page2">Thing 7</a></li>
+                <li><a href="#panel-fixed-page2">Thing 8</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div>
+	</body>
+</html>
