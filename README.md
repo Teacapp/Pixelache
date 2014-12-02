@@ -12,7 +12,7 @@ Mainmap:
 -Schelude
   -Event days
     -All events by time
--Categorys (Every category shows events by tag)
+-Categories (Every category shows events by tag)
   -Music
   -Food
   -Theathre
